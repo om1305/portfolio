@@ -27,7 +27,8 @@
               style="height: 50px"
             >
               <div class="container-fluid position-relative">
-                <a class="navbar-brand" href="#p"></a>
+                <a class="navbar-brand" href="#">
+                  <h4 class="m-0">Om Agarwal</h4></a>
                 <button class="navbar-toggler" type="button">
                   <span class="navbar-toggler-icon"></span>
                 </button>
