@@ -24,8 +24,21 @@
     bottom: 0; */
     z-index: 0;
     mix-blend-mode: screen;
-
+    overflow: hidden;
 }
+@media screen and (max-width : 768px) { 
+    .compvideo{
+        display: flex;
+        /* height: 200px; */
+        width: 700px;
+        justify-content: start;
+    }
+    .video{
+        width: 700px;
+        margin: 0px;
+    }
+}
+
 .head_text{
     color:rgb(18, 18, 58);
 }
@@ -60,7 +73,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}  
+} 
 .project_text{
     color: white;
 }
@@ -75,8 +88,17 @@
 }
 .brain_image{
         mix-blend-mode: screen;
-
+        overflow: hidden;
 }
+@media screen and (max-width : 768px) { 
+    .compbrain{
+        display: flex;
+        /* height: 200px; */
+        width: 700px;
+        justify-content: start;
+    }
+}
+
 .earth_video{
         height: 100vh;
     position: relative;
@@ -87,4 +109,17 @@
     bottom: 0; */
     z-index: 0;
     mix-blend-mode: screen;
+    overflow: hidden;
+}
+@media screen and (max-width : 768px) { 
+    .compearth{
+        display: flex;
+        /* height: 200px; */
+        width: 700px;
+        justify-content: start;
+    }
+    .earth_video{
+        width: 700px;
+        margin: 0px;
+    }
 }
