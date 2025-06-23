@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>portfolio</title>
-    <script src="portfolio.js"></script>
+<!--     <title>portfolio</title>
+    <script src="portfolio.js"></script> -->
     <link rel="stylesheet" href="portfolio.css" />
     <script
       type="module"
